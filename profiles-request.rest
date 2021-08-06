@@ -1,0 +1,27 @@
+GET http://localhost:8080/api/profiles
+
+###
+GET http://localhost:8080/api/profiles/610d7963859145681accee13
+
+###
+POST http://localhost:8080/api/profiles
+content-type: application/json
+
+{
+    "name": "Susan",
+    "lastname": "Foo",
+    "age": "32",
+    "email": "susanfoo@gmail.com"
+}
+
+###
+DELETE http://localhost:8080/api/profiles/610d975bcbef403df059c675
+
+###
+PATCH http://localhost:8080/api/profiles/610d7963859145681accee13
+Content-Type: application/json
+
+{
+    "name": "Kevin",
+    "lastname": "Lopez Lopez"
+}
