@@ -11,17 +11,20 @@ content-type: application/json
     "name": "Susan",
     "lastname": "Foo",
     "age": "32",
-    "email": "susanfoo@gmail.com"
+    "email": "susanfoo12@gmail.com"
 }
 
 ###
 DELETE http://localhost:8080/api/profiles/610d975bcbef403df059c675
 
 ###
-PATCH http://localhost:8080/api/profiles/610d7963859145681accee13
+PATCH http://localhost:8080/api/profiles/610ea02d25c4273ee41fd764
 Content-Type: application/json
 
 {
-    "name": "Kevin",
-    "lastname": "Lopez Lopez"
+    "_id": "610ea02d25c4273ee41fd764",
+    "name": "PAPU",
+    "lastname": "Lopez Lopez",
+    "email" : "hola@gmail.com",
+    "age" : "20"
 }
